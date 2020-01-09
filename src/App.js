@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Big from './components/BigMessage';
+import Demo from './components/Demofx'
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       <body>
         <Big message="{Whawai}" />
         Wah
+        <Demo msg="gsgs"/>
       </body>
     </div>
   );
