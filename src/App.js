@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Big from './components/BigMessage';
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <Big message="{Whawai}" />
+        Wah
+      </body>
     </div>
   );
 }
